@@ -32,7 +32,7 @@ public class BinarySearch {
                 if (result == -1) 
                     System.out.println("Element not present"); 
                 else
-                    System.out.println("Element found at index " + (result+1));
+                    System.out.println("Element found at position "+ (result+1));
             }
             else
                 System.out.println("Please input array in the ascending order");
